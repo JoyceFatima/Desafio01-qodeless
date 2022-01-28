@@ -129,17 +129,17 @@ body {
 
 /* card start */
 
-.cards_feeedback {
+.cards_feedback {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .card {
   border-radius: 20px;
   background: #dcdcdc;
 
-  margin: 4% 32%;
+  margin: 2em;
   padding: 32px;
 }
 
