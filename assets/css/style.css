@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@500&family=Ubuntu:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #F6F9FF;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* header section start */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 5em;
+}
+
+.codar {
+  cursor: pointer;
+  font-style: italic;
+  font-size: 40px;
+  color: #DF3C45;
+}
+
+.nav_bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav_links {
+  display: flex;
+  list-style: none;
+}
+
+.links_header a { 
+  text-decoration: none;
+  padding-right: 40px;
+  color: #000000;
+}
+
+.links_header a:hover {
+  color: #b11c38;
+  cursor: pointer;
+}
+
+.button_list {
+  display: flex;
+}
+
+.primary {
+  background:linear-gradient(90deg, #c260a3, #da7689,#DF3C45);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 50px;
+}
+
+.primary:hover {
+  color: #ffffff;
+  box-shadow: 0 5px 5px rgb(0,0,0,.5);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+/* header section end */
+
+/* main1 section start */
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 7.5% 0%;
+}
+
+.main_menssagem {
+  display: grid;
+  margin: 2em 0em;
+}
+
+.main_paragrafo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main_titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #DF3C45;
+}
+
+.button_list_2 {
+  margin-top: 4em;
+}
+
+.secund {
+  background: #DF3C45;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  padding: 15px 60px;
+}
+
+.secund:hover {
+  color: #ffffff;
+  background: #D6000D;
+  box-shadow: 0 5px 5px rgb(0,0,0,.5);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+/* main1 section end */
+
+/* card start */
+
+.cards_feeedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card {
+  border-radius: 20px;
+  background: #dcdcdc;
+
+  margin: 4% 32%;
+  padding: 32px;
+}
+
+.fas {
+  color: #DF3C45;
+  font-size: 30px;
+}
+
+/* card end  */
+
+/* footer section start */
+
+.footer {
+  padding: 2em 2em;
+  background-color: #000000;
+}
+
+.container {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+  padding: 1em 0em;
+}
+
+.row {
+  cursor: pointer;
+  display: flex;
+  flex: wrap;
+}
+
+.links {
+  padding: 0em 2em;
+}
+
+.links h3 {
+  margin: 0em 0em 1em 0em
+}
+
+.links_footer {
+  list-style: none;
+}
+
+.links_footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.icons {
+  width: 100%;
+  height: 5vh;
+  font-size: 30px;
+  color: #DF3C45;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fab {
+  color: #DF3C45;
+}
+
+/* footer section end */
+
+@media (min-width:400px) and (max-width:800px){
+  .main_menssagem {
+    width: 100%;
+    flex-direction: column;
+  }
+}
